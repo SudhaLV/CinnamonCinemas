@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SeatArrangement {
+Seats[3][5] int;
+
+seatAvailability(int) boolean;
+bookSeats(int) string;
+
+}
+
+
+
+@enduml
